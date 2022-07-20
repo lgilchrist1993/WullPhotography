@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wull McMahon Photographer</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script src="app.js"></script>
+
+    <!--Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Pages/portfolio.html" id="navbarScrollingDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="Portraits.html">Portraits</a></li>
+                            <li><a class="dropdown-item" href="landscapes.html">Landscapes</a></li>
+                            <li><a class="dropdown-item" href="Seascapes.html">Seascapes</a></li>
+                            <li><a class="dropdown-item" href="street.html">Street</a></li>
+                            <li><a class="dropdown-item" href="Upclose.html">Up Close</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Wull</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    William MacMahon Photographer
+                </span>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <h1>Contact Us</h1>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name..">
+
+            <label for="lname">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="Commission">Commission</option>
+                <option value="Print">Print</option>
+                <option value="Question">Question</option>
+                <option value="Feedback">Feedback</option>
+            </select>
+
+            <label for="subject"></label>
+            <textarea id="subject" name="subject" placeholder="Write something here..." style="height:200px"></textarea>
+            <form method="post" action="mailto:lgilchrist1993@gmail.com" enctype="text/plain">
+                <input type="submit" value="Submit">
+            </form>
+    </div>
+
+</body>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/60de6000b1.js" crossorigin="anonymous"></script>
+
+<footer>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.flickr.com/photos/187231193@N05/"
+                target="blank">
+                <i class="fa-brands fa-flickr"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/wullmackers/" target="blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://facebook.com/wull.mackers/" target="blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </li>
+
+    </ul>
+
+</footer>
+<!-- Bootstrap JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</html>
